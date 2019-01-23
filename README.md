@@ -1,9 +1,9 @@
 # CNN-architechtures-on-MNIST
 
---->A ConvNet architecture is in the simplest case a list of Layers that transform the image volume into an output volume (e.g. holding       the class scores)
---->There are a few distinct types of Layers (e.g. CONV/FC/RELU/POOL are by far the most popular)
---->Each Layer accepts an input 3D volume and transforms it to an output 3D volume through a differentiable function
---->Each Layer may or may not have parameters (e.g. CONV/FC do, RELU/POOL don’t)
+--->A ConvNet architecture is in the simplest case a list of Layers that transform the image volume into an output volume (e.g. holding       the class scores).
+--->There are a few distinct types of Layers (e.g. CONV/FC/RELU/POOL are by far the most popular).
+--->Each Layer accepts an input 3D volume and transforms it to an output 3D volume through a differentiable function.
+--->Each Layer may or may not have parameters (e.g. CONV/FC do, RELU/POOL don’t).
 --->Each Layer may or may not have additional hyperparameters (e.g. CONV/FC/POOL do, RELU doesn’t).
 
 To summarize, the Conv Layer:
